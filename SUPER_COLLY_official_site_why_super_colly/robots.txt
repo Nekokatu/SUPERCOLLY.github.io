@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://nekokatu.github.io/SUPERCOLLY.github.io/sitemap.xml
