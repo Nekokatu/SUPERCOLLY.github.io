@@ -1,18 +1,18 @@
 <!doctype html>
-<html lang="en">
+<html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>SUPER COLLY | 3D Action Platformer</title>
-  <meta name="description" content="SUPER COLLY is a 3D action platformer inspired by the classic N64 era. Explore colorful stages, collect Noas, and master fast, playful movement.">
-  <meta name="keywords" content="SUPER COLLY, Super COLLY, スーパーコリー, 3D action platformer, 3D platformer, indie game, N64">
+  <meta name="description" content="SUPER COLLY（スーパーコリー）は、クラシックなN64時代の3Dゲームから影響を受けたインディー3Dアクションプラットフォーマー。探索、ジャンプ、ステージ攻略、コレクションを楽しめるゲームです。">
+  <meta name="keywords" content="SUPER COLLY, Super COLLY, スーパーコリー, 3D action platformer, 3D platformer, 3Dアクション, 3Dマリオ, インディーゲーム, N64, Unity, ゲーム開発">
   <meta name="author" content="SUPER COLLY">
   <meta property="og:title" content="SUPER COLLY | 3D Action Platformer">
-  <meta property="og:description" content="A 3D action platformer inspired by the classic N64 era.">
+  <meta property="og:description" content="A playful 3D action platformer inspired by the classic N64 era.">
   <meta property="og:type" content="website">
   <meta property="og:image" content="images/og-image.jpg">
-  <meta name="theme-color" content="#f7f7f2">
-  <link rel="stylesheet" href="style.css?v=20261007">
+  <meta name="theme-color" content="#62d8ff">
+  <link rel="stylesheet" href="style.css?v=20261007-colorful">
   <link rel="canonical" href="https://nekokatu.github.io/SUPERCOLLY.github.io/">
   <script type="application/ld+json">
   {
@@ -21,7 +21,8 @@
     "name":"SUPER COLLY",
     "alternateName":["Super COLLY","スーパーコリー"],
     "genre":["Action","Platformer","Adventure"],
-    "gamePlatform":["PC"],"url":"https://nekokatu.github.io/SUPERCOLLY.github.io/",
+    "gamePlatform":["PC"],
+    "url":"https://nekokatu.github.io/SUPERCOLLY.github.io/",
     "description":"A 3D action platformer inspired by the classic N64 era.",
     "applicationCategory":"Game"
   }
@@ -35,154 +36,148 @@
     </a>
     <nav>
       <a href="#game">GAME</a>
-      <a href="#screenshots">SCREENSHOTS</a>    <a href="#why">WHY</a>
-      <a href="#development">DEVELOPMENT</a>
-      <a href="#links">LINKS</a>
+      <a href="#world">WORLD</a>
+      <a href="#why">WHY</a>
+      <a href="#development">DEV</a>
+      <a href="#links">PLAY</a>
     </nav>
   </header>
 
   <main id="top">
     <section class="hero">
+      <div class="hero-shape hero-shape-a"></div>
+      <div class="hero-shape hero-shape-b"></div>
       <div class="hero-copy">
         <p class="eyebrow">3D ACTION PLATFORMER</p>
-        <h1>SUPER<br><span>COLLY</span></h1>
-        <p class="lead">A playful 3D adventure inspired by the classic N64 era.</p>
+        <h1>SUPER <span>COLLY</span></h1>
+        <p class="lead">Jump into a playful 3D adventure inspired by the classic N64 era.</p>
         <div class="hero-actions">
           <a class="button primary" href="#game">EXPLORE THE GAME</a>
           <a class="button secondary" href="#links">PLAY / FOLLOW</a>
         </div>
       </div>
       <div class="hero-art">
-        <div class="orb orb-a"></div>
-        <div class="orb orb-b"></div>
-        <img class="hero-image" src="images/hero.jpg" alt="SUPER COLLY key visual">
+        <div class="hero-image-frame">
+          <img class="hero-image" src="images/hero.jpg" alt="SUPER COLLY key visual">
+        </div>
+        <span class="hero-badge badge-yellow">JUMP!</span>
+        <span class="hero-badge badge-green">EXPLORE!</span>
       </div>
+      <div class="cloud cloud-a"></div>
+      <div class="cloud cloud-b"></div>
     </section>
 
-    <section id="game" class="section">
-      <div class="section-heading">
+    <section id="game" class="section game-section">
+      <div class="section-heading centered">
         <p class="eyebrow">THE GAME</p>
-        <h2>Classic 3D action,<br>made for today.</h2>
+        <h2>RUN. JUMP.<br><span>DISCOVER.</span></h2>
+        <p class="section-intro">A compact 3D playground built around movement, exploration and the joy of finding your own route.</p>
       </div>
-      <div class="two-column">
-        <div class="large-copy">
-          <p>SUPER COLLY (スーパーコリー) is an indie 3D action platformer inspired by the free exploration and playful movement of classic N64-era 3D games.</p>
-          <p>Explore stages, discover Noas, challenge athletic sections, search for hidden objectives, and build your own route through each world.</p>
+
+      <div class="feature-grid playful-grid">
+        <article class="feature-card card-blue">
+          <span class="feature-number">01</span>
+          <div class="feature-icon">★</div>
+          <h3>EXPLORE</h3>
+          <p>Move through colorful 3D worlds and discover different ways to reach your goals.</p>
+        </article>
+        <article class="feature-card card-yellow">
+          <span class="feature-number">02</span>
+          <div class="feature-icon">↗</div>
+          <h3>MOVE</h3>
+          <p>Movement, jumps and momentum are at the heart of the experience.</p>
+        </article>
+        <article class="feature-card card-green">
+          <span class="feature-number">03</span>
+          <div class="feature-icon">◆</div>
+          <h3>COLLECT</h3>
+          <p>Find Noas and other collectibles hidden throughout each stage.</p>
+        </article>
+        <article class="feature-card card-red">
+          <span class="feature-number">04</span>
+          <div class="feature-icon">✓</div>
+          <h3>MASTER</h3>
+          <p>Replay stages, improve your routes and enjoy fast, skillful play.</p>
+        </article>
+      </div>
+
+      <div class="game-note">
+        <div>
+          <p class="eyebrow">MADE FOR TODAY</p>
+          <h3>Classic 3D action,<br>with a modern touch.</h3>
         </div>
-        <div class="feature-grid">
-          <article><b>01</b><h3>EXPLORE</h3><p>Move through compact 3D worlds and discover different ways to reach your goals.</p></article>
-          <article><b>02</b><h3>MOVE</h3><p>Movement, jumps and momentum are at the heart of the experience.</p></article>
-          <article><b>03</b><h3>COLLECT</h3><p>Find Noas and other collectibles hidden throughout each stage.</p></article>
-          <article><b>04</b><h3>MASTER</h3><p>Replay stages, improve your routes and enjoy fast, skillful play.</p></article>
-        </div>
+        <p>SUPER COLLY (スーパーコリー) is an indie 3D action platformer inspired by the free exploration and playful movement of classic N64-era 3D games.</p>
       </div>
     </section>
 
-    <section id="screenshots" class="section screenshots-section">
-      <div class="section-heading">
-        <p class="eyebrow">SCREENSHOTS</p>
-        <h2>Welcome to<br>the world of COLLY.</h2>
+    <section id="world" class="section world-section">
+      <div class="section-heading centered light">
+        <p class="eyebrow">WORLD OF COLLY</p>
+        <h2>WELCOME TO<br><span>COLLY!</span></h2>
+        <p class="section-intro">Take a look around the worlds of SUPER COLLY.</p>
       </div>
-      <div class="shot-grid">
-        <figure class="shot shot-large"><img src="images/screenshot01.jpg" alt="SUPER COLLY gameplay screenshot 1"></figure>
-        <figure class="shot"><img src="images/screenshot02.jpg" alt="SUPER COLLY gameplay screenshot 2"></figure>
-        <figure class="shot"><img src="images/screenshot03.jpg" alt="SUPER COLLY gameplay screenshot 3"></figure>
-        <figure class="shot"><img src="images/screenshot04.jpg" alt="SUPER COLLY gameplay screenshot 4"></figure>
-        <figure class="shot"><img src="images/screenshot05.jpg" alt="SUPER COLLY gameplay screenshot 5"></figure>
+
+      <div class="world-gallery">
+        <figure class="world-shot world-shot-main">
+          <img src="images/screenshot01.jpg" alt="SUPER COLLY gameplay screenshot 1">
+          <figcaption><b>WORLD 01</b><span>Explore the stage</span></figcaption>
+        </figure>
+        <figure class="world-shot">
+          <img src="images/screenshot02.jpg" alt="SUPER COLLY gameplay screenshot 2">
+          <figcaption><b>WORLD 02</b><span>Find your route</span></figcaption>
+        </figure>
+        <figure class="world-shot">
+          <img src="images/screenshot03.jpg" alt="SUPER COLLY gameplay screenshot 3">
+          <figcaption><b>WORLD 03</b><span>Keep moving</span></figcaption>
+        </figure>
+        <figure class="world-shot">
+          <img src="images/screenshot04.jpg" alt="SUPER COLLY gameplay screenshot 4">
+          <figcaption><b>WORLD 04</b><span>Look for secrets</span></figcaption>
+        </figure>
+        <figure class="world-shot">
+          <img src="images/screenshot05.jpg" alt="SUPER COLLY gameplay screenshot 5">
+          <figcaption><b>WORLD 05</b><span>Go for the Noa</span></figcaption>
+        </figure>
       </div>
     </section>
 
+    <section id="why" class="section why-section">
+      <div class="why-sticker">1996</div>
+      <div class="section-heading centered">
+        <p class="eyebrow">WHY SUPER COLLY</p>
+        <h2>TWO THINGS<br><span>BORN IN 1996.</span></h2>
+      </div>
+      <div class="why-content">
+        <p>1996年。ひとつは、僕が生まれた年。そしてもうひとつは、『スーパーマリオ64』が生まれた年です。</p>
+        <p>『スーパーマリオ64』は、3Dゲームという表現そのものを大きく変えたゲームでした。</p>
+        <p>広いステージを自由に走り、高いところへ登り、遠くへジャンプし、自分で道を見つけていく。30年近く経った今でも、その遊びには強い魅力があります。</p>
+        <p>だからこそ、SUPER COLLYでは、そんなクラシックな3Dアクションの面白さに、もう一度向き合いたいと思いました。</p>
+        <p>これは、昔のゲームをそのまま再現するためのゲームではありません。当時のクリエイターたちが作ったものを見て、「今の自分なら、どんな3Dアクションを作るだろう？」そう考えながら、自分なりの答えを作っています。</p>
+        <p>売れるゲームを作ること。まだ作ったことのないジャンルに挑戦すること。それも、ゲームを作る理由のひとつです。</p>
+        <p class="why-emphasis">でも、SUPER COLLYを作る一番大きな理由は、もっとシンプルです。</p>
+        <p class="why-final">1996年に生まれた自分が、1996年に生まれたゲームに挑戦してみたい。</p>
+        <p>30年後の自分から、あの頃のゲームクリエイターたちへ。</p>
+        <p class="why-quote">「自分は、こういう3Dアクションを作りました。」</p>
+        <p>そう答えるために、SUPER COLLYを作っています。</p>
+      </div>
+    </section>
 
-    
-<section id="why" class="section why-section">
-  <div class="section-heading">
-    <p class="eyebrow">WHY SUPER COLLY</p>
-    <h2>Two Things Born in 1996.</h2>
-  </div>
-
-  <div class="why-content">
-    <p>
-      1996年。ひとつは、僕が生まれた年。そしてもうひとつは、
-      『スーパーマリオ64』が生まれた年です。
-    </p>
-
-    <p>
-      『スーパーマリオ64』は、3Dゲームという表現そのものを大きく変えたゲームでした。
-    </p>
-
-    <p>
-      広いステージを自由に走り、高いところへ登り、遠くへジャンプし、
-      自分で道を見つけていく。
-    </p>
-
-    <p>
-      30年近く経った今でも、その遊びには強い魅力があります。
-    </p>
-
-    <p>
-      だからこそ、SUPER COLLYでは、そんなクラシックな3Dアクションの面白さに、
-      もう一度向き合いたいと思いました。
-    </p>
-
-    <p>
-      これは、昔のゲームをそのまま再現するためのゲームではありません。
-    </p>
-
-    <p>
-      当時のクリエイターたちが作ったものを見て、
-      「今の自分なら、どんな3Dアクションを作るだろう？」
-      そう考えながら、自分なりの答えを作っています。
-    </p>
-
-    <p>
-      売れるゲームを作ること。まだ作ったことのないジャンルに挑戦すること。
-      それも、ゲームを作る理由のひとつです。
-    </p>
-
-    <p class="why-emphasis">
-      でも、SUPER COLLYを作る一番大きな理由は、もっとシンプルです。
-    </p>
-
-    <p class="why-final">
-      1996年に生まれた自分が、1996年に生まれたゲームに挑戦してみたい。
-    </p>
-
-    <p>
-      30年後の自分から、あの頃のゲームクリエイターたちへ。
-    </p>
-
-    <p class="why-quote">
-      「自分は、こういう3Dアクションを作りました。」
-    </p>
-
-    <p>
-      そう答えるために、SUPER COLLYを作っています。
-    </p>
-  </div>
-</section>
-
-<section id="development" class="section development">
-      <div class="section-heading">
+    <section id="development" class="section development">
+      <div class="section-heading centered light">
         <p class="eyebrow">DEVELOPMENT</p>
-        <h2>Built with<br>curiosity and care.</h2>
+        <h2>MADE WITH<br><span>CURIOSITY.</span></h2>
       </div>
       <div class="dev-content">
-        <div>
+        <div class="dev-copy">
           <p>SUPER COLLY is being developed as a small-scale indie project with a strong focus on the feel of 3D action: camera behavior, movement, stage readability, performance, and approachable exploration.</p>
           <p>This site will grow with the game. Development articles can be added here later to help players discover the project through topics such as stage design, Unity development, camera systems and game feel.</p>
         </div>
         <div class="quote-card">
-          <span class="quote-mark">“</span>
-          <p>Simple to pick up.<br>Fun to master.</p>
+          <span class="quote-mark">★</span>
+          <p>Simple to pick up.<br><span>Fun to master.</span></p>
         </div>
       </div>
-    </section>
 
-    <section class="section journal">
-      <div class="section-heading">
-        <p class="eyebrow">DEV JOURNAL</p>
-        <h2>From the development room.</h2>
-      </div>
       <div class="journal-grid">
         <article class="journal-card">
           <span>ARTICLE 01</span>
@@ -206,16 +201,16 @@
     </section>
 
     <section id="links" class="section links-section">
-      <div class="section-heading">
-        <p class="eyebrow">FOLLOW / PLAY</p>
-        <h2>Find SUPER COLLY<br>around the web.</h2>
+      <div class="section-heading centered">
+        <p class="eyebrow">PLAY / FOLLOW</p>
+        <h2>COME PLAY<br><span>SUPER COLLY!</span></h2>
       </div>
       <div class="link-list">
         <a href="https://unityroom.com/games/supercolly" target="_blank" rel="noopener noreferrer"><span>UNITYROOM</span><b>↗</b></a>
         <a href="https://x.com/nekokatu0112" target="_blank" rel="noopener noreferrer"><span>X / TWITTER</span><b>↗</b></a>
         <a href="https://game-creators.camp/games/74811960/super_colly" target="_blank" rel="noopener noreferrer"><span>GAME CREATORS CAMP</span><b>↗</b></a>
-        <div class="link-upcoming" aria-label="Steam page coming soon"><span>STEAM</span><b>COMING SOON</b></div>
-        <div class="link-upcoming" aria-label="Nintendo Switch page coming soon"><span>NINTENDO SWITCH</span><b>COMING SOON</b></div>
+        <div class="link-upcoming"><span>STEAM</span><b>COMING SOON</b></div>
+        <div class="link-upcoming"><span>NINTENDO SWITCH</span><b>COMING SOON</b></div>
       </div>
     </section>
 
