@@ -334,3 +334,61 @@ pre, code {
   line-height: 1.7 !important;
   font-weight: 400 !important;
 }
+
+
+/* WHY SUPER COLLY */
+.why-section {
+  background: #f7f7f3;
+}
+
+.why-content {
+  max-width: 820px;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 2;
+  color: #3f403d;
+}
+
+.why-content p {
+  margin: 0 0 28px;
+}
+
+.why-content .why-emphasis {
+  margin-top: 44px;
+  margin-bottom: 18px;
+  font-weight: 600;
+}
+
+.why-content .why-final {
+  margin: 0 0 34px;
+  font-size: clamp(22px, 3vw, 34px);
+  line-height: 1.7;
+  font-weight: 700;
+  color: #242522;
+}
+
+.why-content .why-quote {
+  margin: 38px 0 28px;
+  padding-left: 22px;
+  border-left: 3px solid currentColor;
+  font-size: clamp(20px, 2.6vw, 30px);
+  line-height: 1.7;
+  font-weight: 700;
+  color: #242522;
+}
+
+@media (max-width: 560px) {
+  .why-content {
+    font-size: 15px;
+    line-height: 1.9;
+  }
+
+  .why-content .why-final {
+    font-size: 24px;
+  }
+
+  .why-content .why-quote {
+    font-size: 21px;
+    padding-left: 16px;
+  }
+}
