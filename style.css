@@ -311,3 +311,26 @@ pre, code {
   margin: 0;
 }
 
+
+
+/* --- SEO補足文の公開サイト表示を確実に反映 --- */
+.seo-keywords {
+  display: block !important;
+  width: min(1100px, calc(100% - 40px)) !important;
+  margin: 0 auto 20px !important;
+  padding: 0 20px !important;
+  color: #b6b6ae !important;
+  font-size: 9px !important;
+  line-height: 1.7 !important;
+  letter-spacing: .01em !important;
+  text-align: center !important;
+  font-weight: 400 !important;
+}
+.seo-keywords p {
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #b6b6ae !important;
+  font-size: 9px !important;
+  line-height: 1.7 !important;
+  font-weight: 400 !important;
+}
