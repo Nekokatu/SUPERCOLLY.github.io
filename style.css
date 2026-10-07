@@ -199,7 +199,11 @@ h1,h2,h3{font-family:"Baloo 2","Nunito",sans-serif;line-height:.9;margin:0;font-
 .world-shot:nth-child(3){grid-column:span 5;grid-row:span 3}
 .world-shot:nth-child(4){grid-column:span 7;grid-row:span 2}
 .world-shot:nth-child(5){grid-column:span 4;grid-row:span 2}
-.world-shot:nth-child(6){grid-column:span 8;grid-row:span 2}
+.world-shot:nth-child(6){grid-column:span 4;grid-row:span 2}
+.world-shot:nth-child(7){grid-column:span 4;grid-row:span 2}
+.world-shot:nth-child(8){grid-column:span 4;grid-row:span 2}
+.world-shot:nth-child(9){grid-column:span 6;grid-row:span 2}
+.world-shot:nth-child(10){grid-column:span 6;grid-row:span 2}
 .world-shot-main{grid-row:span 3}
 .world-shot img{
   display:block;

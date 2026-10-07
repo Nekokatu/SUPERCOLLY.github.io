@@ -32,6 +32,10 @@ HTMLやCSSを編集する必要はありません。
 | `images/screenshot04.jpg` | WORLDセクションのスクリーンショット（ステージの個性が伝わる1枚） | JPG / PNG |
 | `images/screenshot05.jpg` | WORLDセクションのスクリーンショット（記憶に残る・意外性のある1枚） | JPG / PNG |
 | `images/screenshot06.jpg` | WORLDセクションのスクリーンショット（自分なりのルート・遊び方を感じる1枚） | JPG / PNG |
+| `images/screenshot07.jpg` | WORLDセクションのスクリーンショット（意外な発見やギミックが伝わる1枚） | JPG / PNG |
+| `images/screenshot08.jpg` | WORLDセクションのスクリーンショット（細部やステージの雰囲気を感じる1枚） | JPG / PNG |
+| `images/screenshot09.jpg` | WORLDセクションのスクリーンショット（探索の広がりを感じる1枚） | JPG / PNG |
+| `images/screenshot10.jpg` | WORLDセクションのスクリーンショット（最後に印象を残す代表スクリーンショット） | JPG / PNG |
 | `images/og-image.jpg` | XなどでサイトURLを共有したときに表示されるOGP画像 | JPG / PNG |
 
 ### ロゴについて
@@ -124,5 +128,5 @@ PC・タブレット・スマートフォンのすべてで、基本的に**縦�
 ### 2026-10-07 update
 - DEVELOPMENT section was removed so the official site focuses more strongly on the game itself.
 - WORLD OF COLLY was redesigned as an asymmetrical screenshot gallery with a large featured image and varied card sizes.
-- WORLD OF COLLY now uses six screenshots as the standard gallery layout. Add `screenshot06.jpg` to complete the gallery.
+- WORLD OF COLLY now uses ten screenshots as the standard gallery layout. Add `screenshot01.jpg` through `screenshot10.jpg` to complete the gallery.
 - Screenshot images are presented with a consistent visual frame while preserving the source image files.
