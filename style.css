@@ -181,8 +181,8 @@ h1,h2,h3{font-family:"Baloo 2","Nunito",sans-serif;line-height:.9;margin:0;font-
   max-width:1180px;
   margin:58px auto 0;
   display:grid;
-  grid-template-columns:repeat(6,1fr);
-  grid-template-rows:repeat(5,clamp(150px,15vw,205px));
+  grid-template-columns:repeat(10,1fr);
+  grid-template-rows:repeat(12,clamp(105px,9vw,150px));
   gap:22px;
 }
 .world-shot{
@@ -194,17 +194,17 @@ h1,h2,h3{font-family:"Baloo 2","Nunito",sans-serif;line-height:.9;margin:0;font-
   background:#fff;
   box-shadow:8px 8px 0 var(--ink);
 }
-/* 10 shots: puzzle-like layout that always fills a clean rectangle */
-.world-shot:nth-child(1){grid-column:1 / span 4;grid-row:1 / span 2}
-.world-shot:nth-child(2){grid-column:5 / span 2;grid-row:1 / span 2}
-.world-shot:nth-child(3){grid-column:1 / span 2;grid-row:3}
-.world-shot:nth-child(4){grid-column:3 / span 2;grid-row:3}
-.world-shot:nth-child(5){grid-column:5 / span 2;grid-row:3}
-.world-shot:nth-child(6){grid-column:1 / span 3;grid-row:4}
-.world-shot:nth-child(7){grid-column:4 / span 3;grid-row:4}
-.world-shot:nth-child(8){grid-column:1 / span 2;grid-row:5}
-.world-shot:nth-child(9){grid-column:3 / span 2;grid-row:5}
-.world-shot:nth-child(10){grid-column:5 / span 2;grid-row:5}
+/* 10 shots: puzzle-like layout with portrait + landscape mixed in every horizontal band */
+.world-shot:nth-child(1){grid-column:1 / span 3;grid-row:1 / span 3}
+.world-shot:nth-child(2){grid-column:4 / span 7;grid-row:1 / span 3}
+.world-shot:nth-child(3){grid-column:1 / span 7;grid-row:4 / span 3}
+.world-shot:nth-child(4){grid-column:8 / span 3;grid-row:4 / span 3}
+.world-shot:nth-child(5){grid-column:1 / span 4;grid-row:7 / span 2}
+.world-shot:nth-child(6){grid-column:5 / span 6;grid-row:7 / span 2}
+.world-shot:nth-child(7){grid-column:1 / span 6;grid-row:9 / span 2}
+.world-shot:nth-child(8){grid-column:7 / span 4;grid-row:9 / span 2}
+.world-shot:nth-child(9){grid-column:1 / span 3;grid-row:11 / span 2}
+.world-shot:nth-child(10){grid-column:4 / span 7;grid-row:11 / span 2}
 .world-shot img{
   display:block;
   width:100%;
@@ -325,20 +325,20 @@ footer strong{font-weight:900}
 @media(max-width:1000px){
   .playful-grid{grid-template-columns:1fr 1fr}
   .world-gallery{
-    grid-template-columns:1fr 1fr;
-    grid-template-rows:repeat(5,clamp(180px,30vw,240px));
+    grid-template-columns:repeat(6,1fr);
+    grid-template-rows:repeat(12,clamp(90px,15vw,135px));
   }
   .world-shot:nth-child(n){grid-column:auto;grid-row:auto}
-  .world-shot:nth-child(1){grid-column:1 / -1;grid-row:1 / span 2}
-  .world-shot:nth-child(2){grid-column:1;grid-row:3}
-  .world-shot:nth-child(3){grid-column:2;grid-row:3}
-  .world-shot:nth-child(4){grid-column:1;grid-row:4}
-  .world-shot:nth-child(5){grid-column:2;grid-row:4}
-  .world-shot:nth-child(6){grid-column:1 / -1;grid-row:5}
-  .world-shot:nth-child(7){grid-column:1 / -1;grid-row:6}
-  .world-shot:nth-child(8){grid-column:1;grid-row:7}
-  .world-shot:nth-child(9){grid-column:2;grid-row:7}
-  .world-shot:nth-child(10){grid-column:1 / -1;grid-row:8}
+  .world-shot:nth-child(1){grid-column:1 / span 2;grid-row:1 / span 3}
+  .world-shot:nth-child(2){grid-column:3 / span 4;grid-row:1 / span 3}
+  .world-shot:nth-child(3){grid-column:1 / span 4;grid-row:4 / span 3}
+  .world-shot:nth-child(4){grid-column:5 / span 2;grid-row:4 / span 3}
+  .world-shot:nth-child(5){grid-column:1 / span 3;grid-row:7 / span 2}
+  .world-shot:nth-child(6){grid-column:4 / span 3;grid-row:7 / span 2}
+  .world-shot:nth-child(7){grid-column:1 / span 3;grid-row:9 / span 2}
+  .world-shot:nth-child(8){grid-column:4 / span 3;grid-row:9 / span 2}
+  .world-shot:nth-child(9){grid-column:1 / span 2;grid-row:11 / span 2}
+  .world-shot:nth-child(10){grid-column:3 / span 4;grid-row:11 / span 2}
   .hero{padding-top:45px}
   .hero-copy{text-align:center;margin:auto}
   .hero .lead{margin-left:auto;margin-right:auto}
