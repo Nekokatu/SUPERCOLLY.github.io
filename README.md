@@ -26,11 +26,11 @@ HTMLやCSSを編集する必要はありません。
 |---|---|---|
 | `images/logo.png` | SUPER COLLYのロゴ。ヘッダーとトップページのメインタイトルに使用 | PNG推奨（透過可） |
 | `images/hero.jpg` | トップページのメインビジュアル | JPG / PNG |
-| `images/screenshot01.jpg` | WORLDセクションのメインスクリーンショット | JPG / PNG |
-| `images/screenshot02.jpg` | WORLDセクションのスクリーンショット | JPG / PNG |
-| `images/screenshot03.jpg` | WORLDセクションのスクリーンショット | JPG / PNG |
-| `images/screenshot04.jpg` | WORLDセクションのスクリーンショット | JPG / PNG |
-| `images/screenshot05.jpg` | WORLDセクションのスクリーンショット | JPG / PNG |
+| `images/screenshot01.jpg` | WORLDセクションの代表スクリーンショット（世界観・ステージの印象を伝える1枚） | JPG / PNG |
+| `images/screenshot02.jpg` | WORLDセクションのスクリーンショット（アクションが伝わる1枚） | JPG / PNG |
+| `images/screenshot03.jpg` | WORLDセクションのスクリーンショット（探索を感じる1枚） | JPG / PNG |
+| `images/screenshot04.jpg` | WORLDセクションのスクリーンショット（ステージの個性が伝わる1枚） | JPG / PNG |
+| `images/screenshot05.jpg` | WORLDセクションのスクリーンショット（記憶に残る・意外性のある1枚） | JPG / PNG |
 | `images/og-image.jpg` | XなどでサイトURLを共有したときに表示されるOGP画像 | JPG / PNG |
 
 ### ロゴについて
@@ -109,3 +109,7 @@ PC・タブレット・スマートフォンのすべてで、基本的に**縦�
 - 背景の円形装飾（太陽・図形）
 
 そのため、ロゴを大きく見せ、その下にメインビジュアルを配置する、ゲーム公式サイトらしいファーストビューになっています。
+
+
+### DEVELOPMENT section
+現在はARTICLE 01〜03の仮記事カードを表示していません。掲載内容が決まった段階で追加できます。
