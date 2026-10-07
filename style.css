@@ -52,12 +52,12 @@ h1,h2,h3{font-family:"Baloo 2","Nunito",sans-serif;line-height:.9;margin:0;font-
 .hero{
   position:relative;
   min-height:100vh;
-  padding:70px 5vw 110px;
+  padding:55px 5vw 95px;
   display:flex;
   flex-direction:column;
   align-items:center;
   justify-content:center;
-  gap:42px;
+  gap:28px;
   overflow:hidden;
   background:var(--cream);
 }
@@ -71,8 +71,8 @@ h1,h2,h3{font-family:"Baloo 2","Nunito",sans-serif;line-height:.9;margin:0;font-
 }
 .hero-copy{position:relative;z-index:4;max-width:1000px;width:100%;text-align:center}
 .hero .eyebrow{color:var(--muted);margin-bottom:22px}
-.hero-logo-wrap{display:flex;align-items:center;justify-content:center;min-height:170px;margin:0 auto 12px}
-.hero-logo{display:block;width:min(820px,92vw);height:auto;max-height:300px;object-fit:contain;object-position:center}
+.hero-logo-wrap{display:flex;align-items:center;justify-content:center;min-height:220px;margin:0 auto 8px}
+.hero-logo{display:block;width:min(980px,94vw);height:auto;max-height:360px;object-fit:contain;object-position:center}
 .lead{max-width:720px;margin:22px auto 0;font-size:clamp(18px,2vw,25px);font-weight:800;color:var(--ink);letter-spacing:.03em}
 .hero-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:26px}
 .button{
@@ -102,7 +102,7 @@ h1,h2,h3{font-family:"Baloo 2","Nunito",sans-serif;line-height:.9;margin:0;font-
 .hero-image{
   display:block;
   width:100%;
-  max-height:680px;
+  max-height:720px;
   object-fit:contain;
   border-radius:22px;
   background:#d8f5ff;
@@ -367,7 +367,7 @@ footer strong{font-weight:900}
   .world-gallery{grid-template-columns:1fr 1fr}
   .world-shot-main{grid-row:auto;grid-column:1/-1}
   .world-shot-main img{max-height:none}
-  .hero{padding-top:55px}
+  .hero{padding-top:45px}
   .hero-copy{text-align:center;margin:auto}
   .hero .lead{margin-left:auto;margin-right:auto}
   .hero-actions{justify-content:center}
@@ -392,8 +392,8 @@ footer strong{font-weight:900}
   .brand{font-size:13px}
   nav{width:100%;justify-content:center}
   .hero{padding:42px 20px 90px;gap:30px}
-  .hero-logo-wrap{min-height:100px}
-  .hero-logo{width:min(92vw,620px);max-height:180px}
+  .hero-logo-wrap{min-height:140px}
+  .hero-logo{width:min(94vw,760px);max-height:220px}
   .lead{font-size:17px}
   .hero-actions{flex-direction:column;align-items:stretch}
   .button{text-align:center}
