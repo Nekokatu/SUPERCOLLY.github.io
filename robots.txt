@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://YOUR-USERNAME.github.io/super-colly/sitemap.xml
+Sitemap: https://SUPERCOLLY.github.io/sitemap.xml

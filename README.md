@@ -13,7 +13,7 @@ A lightweight static website designed for GitHub Pages.
 
 ## Before publishing
 
-1. Replace `YOUR-USERNAME` in `index.html`, `robots.txt`, and `sitemap.xml`.
+1. The site is configured for `https://SUPERCOLLY.github.io/`.
 2. Replace the `#` links in the Links section with the real SUPER COLLY URLs.
 3. Add real screenshots to `images/`.
 4. For the best social preview, add `images/og-image.jpg`.
