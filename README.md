@@ -1,136 +1,64 @@
-# SUPER COLLY 公式サイト
+# SUPER COLLY Official Site
 
 SUPER COLLY の公式サイト用ファイルです。
 
-## 公開URL
+## Screenshot Gallery
+
+スクリーンショットは `images/` フォルダに以下の名前で配置してください。
+
+- `screenshot01.jpg`
+- `screenshot02.jpg`
+- `screenshot03.jpg`
+- `screenshot04.jpg`
+- `screenshot05.jpg`
+- `screenshot06.jpg`
+- `screenshot07.jpg`
+- `screenshot08.jpg`
+- `screenshot09.jpg`
+- `screenshot10.jpg`
+
+10枚のスクリーンショットは、横長・縦長を混在させたパズル型レイアウトで表示されます。
+画像を差し替える場合も、ファイル名を同じにすればHTMLを変更する必要はありません。
+
+## Hero Image
+
+トップのヒーロー画像は `images/hero.jpg` を使用します。
+新しいヒーロー画像に差し替える場合は、同じファイル名で上書きしてください。
+
+## Other Images
+
+- `images/logo.png` — ロゴ
+- `images/og-image.jpg` — SNS / OGP 用画像
+
+## Links
+
+サイト下部には以下のリンクを配置しています。
+
+- GitHub: https://github.com/Nekokatu/SUPER_COLLY_Test_History/tree/main?tab=readme-ov-file
+- Discord: https://discord.gg/efnuXxDyV6
+- X
+- UnityRoom
+- Game Creators Camp
+- itch.io（COMING SOON）
+- Steam（COMING SOON）
+- Nintendo Switch（COMING SOON）
+
+## Updating the Site
+
+1. `images/` 内の画像を差し替える
+2. ファイル名を変更しない
+3. `index.html` を編集する必要がなければ、そのままGitHubへ反映する
+4. GitHub Pages の更新後、公式サイトを確認する
+
+## Responsive Design
+
+PC・タブレット・スマートフォンに対応しています。
+横方向へのスクロールが発生しないように設計されています。
+
+## SEO
+
+サイト下部には、SUPER COLLY、3Dプラットフォーマー、アクションゲーム、探索、ジャンプ、ステージ攻略、コレクション、Unity開発などに関する検索用テキストを配置しています。
+
+## Official Site
 
 https://nekokatu.github.io/SUPERCOLLY.github.io/
-
-## ファイル構成
-
-- `index.html` — サイト本体
-- `style.css` — デザイン・レイアウト
-- `script.js` — JavaScript
-- `robots.txt` — 検索エンジン向け設定
-- `sitemap.xml` — サイトマップ
-- `images/` — サイトで使用する画像
-
-## 画像の差し替え
-
-サイト内で使用している画像は、`images/` フォルダ内の同じファイル名の画像を上書きするだけで差し替えできます。
-HTMLやCSSを編集する必要はありません。
-
-### 差し替え可能な画像一覧
-
-| ファイル名 | 用途 | 推奨形式 |
-|---|---|---|
-| `images/logo.png` | SUPER COLLYのロゴ。ヘッダーとトップページのメインタイトルに使用 | PNG推奨（透過可） |
-| `images/hero.jpg` | トップページのメインビジュアル | JPG / PNG |
-| `images/screenshot01.jpg` | WORLDセクションの代表スクリーンショット（世界観・ステージの印象を伝える1枚） | JPG / PNG |
-| `images/screenshot02.jpg` | WORLDセクションのスクリーンショット（アクションが伝わる1枚） | JPG / PNG |
-| `images/screenshot03.jpg` | WORLDセクションのスクリーンショット（探索を感じる1枚） | JPG / PNG |
-| `images/screenshot04.jpg` | WORLDセクションのスクリーンショット（ステージの個性が伝わる1枚） | JPG / PNG |
-| `images/screenshot05.jpg` | WORLDセクションのスクリーンショット（記憶に残る・意外性のある1枚） | JPG / PNG |
-| `images/screenshot06.jpg` | WORLDセクションのスクリーンショット（自分なりのルート・遊び方を感じる1枚） | JPG / PNG |
-| `images/screenshot07.jpg` | WORLDセクションのスクリーンショット（意外な発見やギミックが伝わる1枚） | JPG / PNG |
-| `images/screenshot08.jpg` | WORLDセクションのスクリーンショット（細部やステージの雰囲気を感じる1枚） | JPG / PNG |
-| `images/screenshot09.jpg` | WORLDセクションのスクリーンショット（探索の広がりを感じる1枚） | JPG / PNG |
-| `images/screenshot10.jpg` | WORLDセクションのスクリーンショット（最後に印象を残す代表スクリーンショット） | JPG / PNG |
-| `images/og-image.jpg` | XなどでサイトURLを共有したときに表示されるOGP画像 | JPG / PNG |
-
-### ロゴについて
-
-`images/logo.png` にロゴ画像を入れると、トップページのファーストビューに大きく表示されます。
-
-ロゴは透過PNGを推奨します。ロゴそのものを主役として見せる構成にしているため、HTML内に別の「SUPER COLLY」文字タイトルはありません。
-
-### 画像差し替え時の注意
-
-- ファイル名は変更しないでください。
-- `images/` フォルダの中に入れてください。
-- JPGの場合は、現在使用しているファイルと同じ `.jpg` の名前にしてください。
-- ロゴは透過PNGを推奨します。
-- スクリーンショットは縦横比が違っていても、画像を切らずに表示するようにしています。
-- 極端に大きな画像を使用するとページの読み込みが重くなるため、Web用に適度に圧縮してください。
-
-## 外部リンク
-
-現在、以下のページへのリンクを設定しています。
-
-- X
-  https://x.com/nekokatu0112
-- UnityRoom
-  https://unityroom.com/games/supercolly
-- CreatorsCamp
-  https://game-creators.camp/games/74811960/super_colly
-
-SteamとNintendo Switchは、正式なページが公開された時点でURLを設定する予定です。
-
-## 動画
-
-YouTubeへの外部リンク欄は設けていません。
-
-今後、ゲーム紹介動画などをサイト内で直接再生できる形にする予定です。
-
-## 更新方法
-
-1. GitHubの `SUPERCOLLY.github.io` リポジトリを開く
-2. 変更したいファイルや画像をアップロード・上書きする
-3. GitHub Pagesへの反映を待つ
-4. 公開サイトを確認する
-
-画像だけ変更する場合は、`images/` 内の同じファイル名の画像を差し替えるだけでOKです。
-
-## レスポンシブ対応
-
-PC・タブレット・スマートフォンのすべてで、基本的に**縦スクロールのみ**で閲覧できるようにしています。
-
-画面幅が狭い場合は、画像や各セクションが自動的に縦方向へ並びます。
-
-## WHY SUPER COLLY
-
-「WHY SUPER COLLY」セクションを追加しています。
-
-1996年生まれの開発者が、1996年に生まれた『スーパーマリオ64』に
-自分なりの3Dアクションで挑戦する、というSUPER COLLYの制作理由を掲載しています。
-
-## デザインについて
-
-ゲームそのものを見せることを重視し、明るい空色・黄色・緑・赤を使った、
-ファミリー向け3Dアクションゲームらしいレイアウトに変更しています。
-
-画像の縦横比が違っていても、スクリーンショットは画像を切らずに表示します。
-
-## トップ（HERO）について
-
-トップのメインビジュアルは、`images/logo.png` のロゴ画像を使用します。
-
-現在のHEROでは以下の装飾を使用していません。
-
-- 画面上部の固定ヘッダー／ナビゲーション
-- 「SUPER COLLY」のテキストロゴ
-- メインビジュアル横の「JUMP!」「EXPLORE!」バッジ
-- 雲の装飾
-- 背景の円形装飾（太陽・図形）
-
-そのため、ロゴを大きく見せ、その下にメインビジュアルを配置する、ゲーム公式サイトらしいファーストビューになっています。
-
-
-### DEVELOPMENT section
-現在はARTICLE 01〜03の仮記事カードを表示していません。掲載内容が決まった段階で追加できます。
-
-## Recent updates
-- Added an ITCH.IO button in the PLAY / FOLLOW section as COMING SOON (URL not set yet).
-- WHY SUPER COLLY now presents an English version first for international visitors, followed by Japanese.
-- Development article placeholders remain removed until the article content is decided.
-
-
-### 2026-10-07 update
-- DEVELOPMENT section was removed so the official site focuses more strongly on the game itself.
-- WORLD OF COLLY was redesigned as an asymmetrical screenshot gallery with a large featured image and varied card sizes.
-- WORLD OF COLLY now uses ten screenshots as the standard gallery layout. Add `screenshot01.jpg` through `screenshot10.jpg` to complete the gallery.
-- Screenshot images are presented with a consistent visual frame while preserving the source image files.
-
-
-### SSギャラリー配置
-デスクトップでは5列×2段の均等グリッドにしています。10枚すべてを並べても外周が段差のない長方形になります。
