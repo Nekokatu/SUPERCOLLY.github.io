@@ -294,6 +294,10 @@ h1,h2,h3{font-family:"Baloo 2","Nunito",sans-serif;line-height:.9;margin:0;font-
 .link-list a:nth-child(1){background:var(--yellow)}
 .link-list a:nth-child(2){background:#fff}
 .link-list a:nth-child(3){background:var(--green)}
+.community-link{background:#fff!important}
+.community-link b{font-size:18px}
+.github-link{border-color:var(--ink)}
+.discord-link{border-color:var(--ink)}
 .link-list a:hover{transform:translate(2px,2px);box-shadow:3px 3px 0 var(--ink)}
 .link-upcoming{background:#edf0f2!important;color:#747b84}
 .link-upcoming b{font-size:10px;letter-spacing:.08em}
