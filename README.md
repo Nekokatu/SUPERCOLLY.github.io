@@ -130,3 +130,7 @@ PC・タブレット・スマートフォンのすべてで、基本的に**縦�
 - WORLD OF COLLY was redesigned as an asymmetrical screenshot gallery with a large featured image and varied card sizes.
 - WORLD OF COLLY now uses ten screenshots as the standard gallery layout. Add `screenshot01.jpg` through `screenshot10.jpg` to complete the gallery.
 - Screenshot images are presented with a consistent visual frame while preserving the source image files.
+
+
+### SSギャラリー配置
+デスクトップでは5列×2段の均等グリッドにしています。10枚すべてを並べても外周が段差のない長方形になります。

@@ -181,8 +181,8 @@ h1,h2,h3{font-family:"Baloo 2","Nunito",sans-serif;line-height:.9;margin:0;font-
   max-width:1180px;
   margin:58px auto 0;
   display:grid;
-  grid-template-columns:repeat(12,1fr);
-  grid-auto-rows:clamp(150px,15vw,220px);
+  grid-template-columns:repeat(6,1fr);
+  grid-template-rows:repeat(5,clamp(150px,15vw,205px));
   gap:22px;
 }
 .world-shot{
@@ -194,17 +194,17 @@ h1,h2,h3{font-family:"Baloo 2","Nunito",sans-serif;line-height:.9;margin:0;font-
   background:#fff;
   box-shadow:8px 8px 0 var(--ink);
 }
-.world-shot:nth-child(1){grid-column:span 7;grid-row:span 3}
-.world-shot:nth-child(2){grid-column:span 5;grid-row:span 2}
-.world-shot:nth-child(3){grid-column:span 5;grid-row:span 3}
-.world-shot:nth-child(4){grid-column:span 7;grid-row:span 2}
-.world-shot:nth-child(5){grid-column:span 4;grid-row:span 2}
-.world-shot:nth-child(6){grid-column:span 4;grid-row:span 2}
-.world-shot:nth-child(7){grid-column:span 4;grid-row:span 2}
-.world-shot:nth-child(8){grid-column:span 4;grid-row:span 2}
-.world-shot:nth-child(9){grid-column:span 6;grid-row:span 2}
-.world-shot:nth-child(10){grid-column:span 6;grid-row:span 2}
-.world-shot-main{grid-row:span 3}
+/* 10 shots: puzzle-like layout that always fills a clean rectangle */
+.world-shot:nth-child(1){grid-column:1 / span 4;grid-row:1 / span 2}
+.world-shot:nth-child(2){grid-column:5 / span 2;grid-row:1 / span 2}
+.world-shot:nth-child(3){grid-column:1 / span 2;grid-row:3}
+.world-shot:nth-child(4){grid-column:3 / span 2;grid-row:3}
+.world-shot:nth-child(5){grid-column:5 / span 2;grid-row:3}
+.world-shot:nth-child(6){grid-column:1 / span 3;grid-row:4}
+.world-shot:nth-child(7){grid-column:4 / span 3;grid-row:4}
+.world-shot:nth-child(8){grid-column:1 / span 2;grid-row:5}
+.world-shot:nth-child(9){grid-column:3 / span 2;grid-row:5}
+.world-shot:nth-child(10){grid-column:5 / span 2;grid-row:5}
 .world-shot img{
   display:block;
   width:100%;
@@ -212,27 +212,6 @@ h1,h2,h3{font-family:"Baloo 2","Nunito",sans-serif;line-height:.9;margin:0;font-
   object-fit:cover;
   background:#d8f5ff;
 }
-.world-shot figcaption{
-  position:absolute;
-  left:14px;
-  right:14px;
-  bottom:14px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:10px;
-  padding:11px 14px;
-  border:2px solid var(--ink);
-  border-radius:14px;
-  background:rgba(255,255,255,.94);
-  color:var(--ink);
-  font-size:11px;
-  font-weight:800;
-  backdrop-filter:blur(5px);
-}
-.world-shot figcaption b{font-weight:900;letter-spacing:.06em}
-.world-shot figcaption span{color:var(--muted)}
-
 .why-section{background:#fff5c8}
 .why-sticker{
   position:absolute;
@@ -347,11 +326,19 @@ footer strong{font-weight:900}
   .playful-grid{grid-template-columns:1fr 1fr}
   .world-gallery{
     grid-template-columns:1fr 1fr;
-    grid-auto-rows:clamp(150px,26vw,210px);
+    grid-template-rows:repeat(5,clamp(180px,30vw,240px));
   }
-  .world-shot:nth-child(n){grid-column:span 1;grid-row:span 2}
-  .world-shot:nth-child(1){grid-column:1/-1;grid-row:span 3}
-  .world-shot:nth-child(4){grid-column:1/-1}
+  .world-shot:nth-child(n){grid-column:auto;grid-row:auto}
+  .world-shot:nth-child(1){grid-column:1 / -1;grid-row:1 / span 2}
+  .world-shot:nth-child(2){grid-column:1;grid-row:3}
+  .world-shot:nth-child(3){grid-column:2;grid-row:3}
+  .world-shot:nth-child(4){grid-column:1;grid-row:4}
+  .world-shot:nth-child(5){grid-column:2;grid-row:4}
+  .world-shot:nth-child(6){grid-column:1 / -1;grid-row:5}
+  .world-shot:nth-child(7){grid-column:1 / -1;grid-row:6}
+  .world-shot:nth-child(8){grid-column:1;grid-row:7}
+  .world-shot:nth-child(9){grid-column:2;grid-row:7}
+  .world-shot:nth-child(10){grid-column:1 / -1;grid-row:8}
   .hero{padding-top:45px}
   .hero-copy{text-align:center;margin:auto}
   .hero .lead{margin-left:auto;margin-right:auto}
@@ -366,9 +353,8 @@ footer strong{font-weight:900}
   .feature-card{min-height:250px}
   .game-note{grid-template-columns:1fr}
   .world-section{padding-left:20px;padding-right:20px}
-  .world-gallery{grid-template-columns:1fr}
-  .world-shot:nth-child(n){grid-column:1;grid-row:span 2}
-  .world-shot:nth-child(1){grid-row:span 3}
+  .world-gallery{grid-template-columns:1fr;grid-template-rows:none;grid-auto-rows:clamp(210px,62vw,340px)}
+  .world-shot:nth-child(n){grid-column:1;grid-row:auto}
   .journal-grid{grid-template-columns:1fr}
   .link-list{grid-template-columns:1fr}
   .why-sticker{width:82px;height:82px;right:20px;top:48px;font-size:23px}
