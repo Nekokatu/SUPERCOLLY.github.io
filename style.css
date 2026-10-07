@@ -259,3 +259,37 @@ pre, code {
     font-size: 14px;
   }
 }
+
+/* --- 画像の解像度・縦横比が違っても崩れないSSレイアウト --- */
+.shot-grid {
+  align-items: start;
+}
+
+.shot {
+  aspect-ratio: auto;
+  height: auto;
+  min-height: 0;
+  overflow: hidden;
+  display: block;
+  background: #d9d9d2;
+}
+
+.shot img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  max-height: 75vh;
+  object-fit: contain;
+}
+
+.shot-large {
+  aspect-ratio: auto;
+  min-height: 0;
+}
+
+@media (max-width: 900px) {
+  .shot img {
+    max-height: none;
+  }
+}
