@@ -343,7 +343,6 @@ pre, code {
 
 .why-content {
   max-width: 820px;
-  overflow-wrap: break-word;
   margin: 0 auto;
   font-size: 16px;
   line-height: 2;
