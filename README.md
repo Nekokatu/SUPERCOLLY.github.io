@@ -13,7 +13,7 @@ A lightweight static website designed for GitHub Pages.
 
 ## Before publishing
 
-1. The site is configured for `https://SUPERCOLLY.github.io/`.
+1. The site is configured for `https://nekokatu.github.io/SUPERCOLLY.github.io/`.
 2. Replace the `#` links in the Links section with the real SUPER COLLY URLs.
 3. Add real screenshots to `images/`.
 4. For the best social preview, add `images/og-image.jpg`.
