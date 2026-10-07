@@ -1,49 +1,64 @@
-# SUPER COLLY Official Website
+# SUPER COLLY 公式サイト
 
-A lightweight static website designed for GitHub Pages.
+SUPER COLLY の公式サイト用ファイルです。
 
-## Files
+## 公開URL
 
-- `index.html` — main page
-- `style.css` — design and responsive layout
-- `script.js` — small interactions
-- `robots.txt` — crawler instructions
-- `sitemap.xml` — search-engine sitemap
-- `images/` — put the fixed-name image assets here
+https://nekokatu.github.io/SUPERCOLLY.github.io/
 
-## Before publishing
+## ファイル構成
 
-1. The site is configured for `https://nekokatu.github.io/SUPERCOLLY.github.io/`.
-2. Replace the `#` links in the Links section with the real SUPER COLLY URLs.
-3. Add images using these fixed filenames:
-   - `hero.jpg` — hero/key visual
-   - `screenshot01.jpg` — large screenshot
-   - `screenshot02.jpg` — screenshot 2
-   - `screenshot03.jpg` — screenshot 3
-   - `screenshot04.jpg` — screenshot 4
-   - `screenshot05.jpg` — screenshot 5
-   - `og-image.jpg` — social sharing image (recommended)
-4. After that, you only need to replace the image files; no HTML editing is required.
-5. Enable GitHub Pages from the repository's Settings > Pages.
+- `index.html` — サイト本体
+- `style.css` — デザイン・レイアウト
+- `script.js` — JavaScript
+- `robots.txt` — 検索エンジン向け設定
+- `sitemap.xml` — サイトマップ
+- `images/` — サイトで使用する画像
 
-GitHub Pages can publish static HTML, CSS and JavaScript directly from a repository.
+## 画像の追加・変更
 
+HTMLを編集しなくても画像を差し替えられるように、ファイル名を固定しています。
 
-## Links
-- X, Unityroom, and Game Creators Camp links are configured in `index.html`.
-- Steam and Nintendo Switch are shown as “COMING SOON” until official store pages are available.
-- No YouTube link is shown; the intention is to play videos directly on this site.
+`images/` フォルダに以下の名前で画像を入れてください。
 
-## Image filenames
-Put these files in `images/` to populate the site:
-- `hero.jpg`
-- `screenshot01.jpg` through `screenshot05.jpg`
-- `og-image.jpg`
+- `hero.jpg` — トップのメインビジュアル
+- `screenshot01.jpg` — スクリーンショット1
+- `screenshot02.jpg` — スクリーンショット2
+- `screenshot03.jpg` — スクリーンショット3
+- `screenshot04.jpg` — スクリーンショット4
+- `screenshot05.jpg` — スクリーンショット5
+- `og-image.jpg` — SNSなどでURLを共有したときに表示する画像
 
+同じファイル名で画像を上書きすれば、サイト側のHTMLを変更せずに画像を更新できます。
 
-## Social and platform links
-The FOLLOW / PLAY section in `index.html` contains links to X, UnityRoom, and CreatorsCamp.
-Steam and Nintendo Switch are displayed as "COMING SOON" placeholders until their official store URLs are available. Replace each placeholder `<div class="link-upcoming"...>` with an `<a>` element once the store pages are ready.
+## 外部リンク
 
-## Images
-Put image files in `images/` using these exact names: `hero.jpg`, `screenshot01.jpg` through `screenshot05.jpg`, and `og-image.jpg`. Keep the filenames unchanged to avoid editing HTML.
+現在、以下のページへのリンクを設定しています。
+
+- X
+  https://x.com/nekokatu0112
+- UnityRoom
+  https://unityroom.com/games/supercolly
+- CreatorsCamp
+  https://game-creators.camp/games/74811960/super_colly
+
+SteamとNintendo Switchは、正式なページが公開された時点でURLを設定する予定です。
+
+## 動画
+
+YouTubeへの外部リンク欄は設けていません。
+
+今後、ゲーム紹介動画などをサイト内で直接再生できる形にする予定です。
+
+## 更新方法
+
+1. GitHubの `SUPERCOLLY.github.io` リポジトリを開く
+2. 変更したいファイルをアップロード・上書きする
+3. GitHub Pagesへの反映を待つ
+4. 公開サイトを確認する
+
+## レスポンシブ対応
+
+PC・タブレット・スマートフォンのすべてで、基本的に**縦スクロールのみ**で閲覧できるようにしています。
+
+画面幅が狭い場合は、画像や各セクションが自動的に縦方向へ並びます。

@@ -113,3 +113,149 @@ footer strong{font-weight:700}
   letter-spacing: .08em;
   color: #777;
 }
+
+
+/* --- 縦スクロール専用・レスポンシブ調整 --- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+img, video, iframe, svg {
+  max-width: 100%;
+}
+
+pre, code {
+  max-width: 100%;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 900px) {
+  .site-header {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .site-header nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    min-width: 0;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  .hero-copy,
+  .hero-art {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .hero-art {
+    margin-top: 24px;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .two-column,
+  .dev-content {
+    grid-template-columns: 1fr;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shot-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shot-large {
+    grid-column: 1 / -1;
+  }
+
+  .journal-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .section-heading h2 {
+    overflow-wrap: anywhere;
+  }
+
+  .link-list a,
+  .link-upcoming {
+    min-width: 0;
+    width: 100%;
+  }
+
+  .link-list a span,
+  .link-upcoming span,
+  .link-list b,
+  .link-upcoming b {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+}
+
+@media (max-width: 560px) {
+  .site-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .site-header nav {
+    width: 100%;
+  }
+
+  .hero {
+    padding-top: 42px;
+  }
+
+  .hero-copy h1 {
+    font-size: clamp(58px, 18vw, 110px);
+    line-height: .86;
+    overflow-wrap: anywhere;
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-actions .button {
+    width: 100%;
+    text-align: center;
+  }
+
+  .feature-grid,
+  .shot-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .shot-large {
+    grid-column: auto;
+  }
+
+  .section-heading h2 {
+    font-size: clamp(34px, 10vw, 64px);
+    line-height: .95;
+  }
+
+  .link-list a,
+  .link-upcoming {
+    padding: 18px 14px;
+  }
+
+  .link-list a span,
+  .link-upcoming span {
+    font-size: 14px;
+  }
+}
