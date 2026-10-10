@@ -66,3 +66,8 @@ https://nekokatu.github.io/SUPERCOLLY.github.io/
 ### Nintendo / Mario 64 / Kirbyへのリスペクト
 
 SUPER COLLYは、任天堂の『スーパーマリオ64』をはじめとする3Dマリオシリーズへのリスペクトを込めて制作している3Dアクションゲームです。1996年に登場した『スーパーマリオ64』が生み出した、3D空間を自由に走り、ジャンプし、探索する楽しさを大切にしながら、現代のゲームとして遊びやすい操作性やステージ設計を目指しています。また、『星のカービィ』シリーズからも、親しみやすいキャラクター性や誰でも楽しめるゲームデザインに影響を受けています。N64時代の3Dゲームや任天堂の3Dアクションゲームへのリスペクトを軸に、SUPER COLLYならではの世界観と遊びを追求しています。
+
+
+## SEO / English search support
+
+The bottom SEO information area in `index.html` contains Japanese and English descriptions of SUPER COLLY, including terms such as “Mario 64-like game,” “retro-style 3D platformer,” “indie 3D action game,” and “SUPER COLLY DEMO.” The English copy is intended to help English-speaking visitors understand the game and may help search engines associate the site with relevant English search terms. Search ranking and traffic are not guaranteed.
